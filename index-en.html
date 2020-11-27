@@ -1,0 +1,384 @@
+<!DOCTYPE html>
+
+<html lang="en" class="no-js">
+   
+    <head>
+        <meta charset="utf-8"/>
+        <title>Tomasz Boruc - Portfolio</title>
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta content="width=device-width, initial-scale=1" name="viewport"/>
+        <meta name="description" content="Zapoznaj sie z moja oferta. Tworzenie stron WWW, kursy z programowania PHP i tworzenia stron i z podstaw informatyki">
+        <meta name="Tomek Boruc" content="Programista WEB, Web developer, HTML, PHP, CSS, Java Script, kursy, korepetycje, informatyk">
+        <meta content="FairTech" name="Tomasz Boruc"/>
+        <link rel="icon" type="image/png" href="icon/favicon-32x32.png" sizes="32x32">
+        <link rel="icon" type="image/png" href="icon/favicon-16x16.png" sizes="16x16">
+        <link href="https://fonts.googleapis.com/css?family=Hind:300,400,500,600,700" rel="stylesheet" type="text/css">
+		<link href="//netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css" rel="stylesheet">
+        <link href="vendor/simple-line-icons/simple-line-icons.min.css" rel="stylesheet" type="text/css"/>
+        <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet" type="text/css"/>
+        <link href="css/animate.css" rel="stylesheet">
+        <link href="vendor/swiper/css/swiper.min.css" rel="stylesheet" type="text/css"/>
+        <link href="css/layout.min.css" rel="stylesheet" type="text/css"/>
+        <link href="css/wlasne.css" rel="stylesheet" type="text/css"/>
+        <link rel="shortcut icon" href="favicon.ico"/>
+        <script type="text/javascript">
+            var imagesArray = ["img/tomek/1m.jpg", "img/tomek/2m.jpg", "img/tomek/3m.jpg", "img/tomek/4m.jpg", "img/tomek/5m.jpg", "img/tomek/6m.jpg", "img/tomek/7m.jpg", "img/tomek/8m.jpg", "img/tomek/9m.jpg", "img/tomek/10m.jpg", "img/tomek/11m.jpg", "img/tomek/12m.jpg", "img/tomek/13m.jpg", "img/tomek/14m.jpg", "img/tomek/15m.jpg", "img/tomek/16m.jpg", "img/tomek/17m.jpg", "img/tomek/18m.jpg"];
+
+            function displayImage(){
+                var num = Math.floor(Math.random() * 17); 
+                document.canvas.src = imagesArray[num];
+            }
+        </script>
+    </head>
+   
+  
+    <body id="body" data-spy="scroll" data-target=".header">
+        <script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-87978126-1', 'auto');
+  ga('send', 'pageview');
+
+</script>
+
+          <header class="header navbar-fixed-top">
+              <nav class="navbar" role="navigation">
+                <div class="container">
+                      <div class="menu-container js_nav-item">
+                        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".nav-collapse">
+                            <span class="sr-only">Toggle navigation</span>
+                            <span class="toggle-icon"></span>
+                        </button>
+
+                          <div class="logo">
+                            <a class="logo-wrap" href="#body">
+                                <img class="logo-img logo-img-main" src="img/logo.png" alt="Tomasz Boruc logo"> 
+                                <img class="logo-img logo-img-active" src="img/logo-dark.png" alt="Tomasz Boruc logo">
+                            </a>
+
+                        </div>
+                        
+                    </div>
+
+                    <div class="collapse navbar-collapse nav-collapse">
+					
+					<div class="language-switcher">
+                      <ul class="nav-lang">
+                        <li><a  href="index.html">Polski</a></li>
+                        
+                        <li><a class="active" href="index-en.html">English</a></li>
+                      </ul>
+                    </div>  
+					
+                        <div class="menu-container">
+                            <ul class="nav navbar-nav navbar-nav-right">
+                                <li class="js_nav-item nav-item"><a class="nav-item-child nav-item-hover" href="#body">Home</a></li>
+                                <li class="js_nav-item nav-item"><a class="nav-item-child nav-item-hover" href="#about"> About</a></li>
+								<li class="js_nav-item nav-item"><a class="nav-item-child nav-item-hover" href="#services">Services</a></li>
+                                <li class="js_nav-item nav-item"><a class="nav-item-child nav-item-hover" href="#contact">Contact</a>
+                                 <ul>
+                                    <li><i class="margin-r-10 color-base icon-call-out"></i>+48 605 165 821</li>
+                                    <li><i class="margin-r-10 color-base icon-envelope"></i> boructomek@gmail.com</li>                                
+                                 </ul>
+
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </nav>
+			</header>
+       
+        <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
+            <div class="container">
+                <ol class="carousel-indicators">
+                    <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
+                    <li data-target="#carousel-example-generic" data-slide-to="1"></li>
+                </ol>
+            </div>
+
+            <div class="carousel-inner" role="listbox">
+                <div class="item active">
+                    <img class="img-responsive" src="img/1920x1080/01.jpg" alt="Slider Image">
+                    <div class="container">
+                        <div class="carousel-centered">
+                            <div class="margin-b-40">
+                                <h1 class="carousel-title">Welcome</h1>
+                                <p class="color-white">My name is Tomek<br/> I am a web designer and developer.</p>
+                            </div>
+                            <a href="#about" class="btn-theme btn-theme-sm btn-white-brd text-uppercase">Details</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="item">
+                    <img class="img-responsive" src="img/1920x1080/02.jpg" alt="Slider Image">
+                    <div class="container">
+                        <div class="carousel-centered">
+                            <div class="margin-b-40">
+                                <h2 class="carousel-title">Take advantage of state-of-the-art solutions ...</h2>
+                                <p class="color-white">. . . and make your mark on the Internet.</p>
+                            </div>
+                            <a href="#services" class="btn-theme btn-theme-sm btn-white-brd text-uppercase">Services</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--========== SLIDER ==========-->
+
+        <!--========== PAGE LAYOUT ==========-->
+        <!-- About -->
+        <div id="about">
+            <div class="content-lg container">
+                <!-- Masonry Grid -->
+                <div class="masonry-grid row">
+                    <div class="masonry-grid-sizer col-xs-6 col-sm-6 col-md-1"></div>
+                    <div class="masonry-grid-item col-xs-12 col-sm-6 col-md-4 sm-margin-b-30">
+                        <div class="margin-b-60">
+                            <h2>About me...</h2>
+                            <p>My name is Tomasz Boruc. I have been a web designer for many years. It is my passion and it gives me a lot of satisfaction, which you can see in the final result of my work.</p>
+                        </div>
+                        <img class="img-rounded full-width img-responsive  photo center-block" src="img/tomek/1m.jpg" alt="Portfolio Image" data-wow-duration=".3" data-wow-delay=".2s" name="canvas" id="obrazek">
+                    </div>
+                    <div class="masonry-grid-item col-xs-12 col-sm-6 col-md-4">
+                        <div class="margin-b-60">
+                          <h2>...i use...</h2>
+                          <p>I use the latest technology for my work. Both front-end (HTML5, CSS3, Bootstrap, JS) and back-end (PHP/Laravel) as well and MySQL for database applications.</p>  
+                        </div>
+						 <img class="full-width img-responsive wow fadeInUp" src="img/500x500/02.jpg" alt="Portfolio Image" data-wow-duration=".3" data-wow-delay=".3s">
+                    </div>
+                    <div class="masonry-grid-item col-xs-12 col-sm-6 col-md-4">
+                        <div class="margin-t-60 margin-b-60">
+                            <h2>...my goal.</h2>
+                            <p>I always aim for my clients’ satisfaction with my services and products. </p>
+                        </div>
+<!--                        <img class="margin-t-100 full-width img-responsive wow fadeInUp " src="img/500x500/03.jpg" alt="Portfolio Image" data-wow-duration=".3" data-wow-delay=".4s">-->
+                           <div class="wow fadeInUp" id="include"></div>
+                    </div>
+				</div>
+                <!-- End Masonry Grid -->
+            </div>
+            
+            
+        </div>
+        <!-- End About -->
+
+        
+
+        <!-- Services -->
+        <div id="services">
+            <div class="bg-color-sky-light" data-auto-height="true">
+                <div class="content-lg container">
+                    <div class="row margin-b-40">
+                        <div class="col-sm-6">
+                            <h2>Services</h2>
+                            <p>Familiarise yourself with my offer and if you have any questions, please contact me.</p>
+                        </div>
+                    </div>
+                    <!--// end row -->
+
+                    <div class="row row-space-1 margin-b-2">
+                        <div class="col-sm-4 sm-margin-b-2">
+                            <div class="service" data-height="height">
+                                <div class="service-element">
+                                    <i class="service-icon icon-book-open"></i>
+                                </div>
+                                <div class="service-info">
+                                    <h3>Training</h3>
+                                    <p class="margin-b-5">Programming and web development training. 
+                                    Remote or face-to-face individual lessons at a convenient location.</p>
+                                </div>
+                                <a href="#services" class="content-wrapper-link"></a>    
+                            </div>
+                        </div>
+                        <div class="col-sm-4 sm-margin-b-2">
+                            <div class="service bg-color-base" data-height="height">
+                                <div class="service-element">
+                                    <i class="service-icon color-white icon-screen-tablet"></i>
+                                </div>
+                                <div class="service-info">
+                                    <h3 class="color-white">Website Construction</h3>
+                                    <p class="color-white margin-b-5">Website designing and construction with support included. If you want to set up an online shop, forum, blog or any other site, I can help you undertake this project.  </p>
+                                </div>
+                                <a href="#services" class="content-wrapper-link"></a>    
+                            </div>
+                        </div>
+                        <div class="col-sm-4">
+                            <div class="service" data-height="height">
+                                <div class="service-element">
+                                    <i class="service-icon icon-magnifier"></i>
+                                </div>
+                                <div class="service-info">
+                                    <h3>Website Positioning</h3>
+                                    <p class="margin-b-5">I offer the best solutions to ensure the maximum visibility of your website by placing it on the first page of search engines.</p>
+                                </div>
+                                <a href="#services" class="content-wrapper-link"></a>    
+                            </div>
+                        </div>
+                    </div>
+                    <!--// end row -->
+
+                    <div class="row row-space-1">
+                        <div class="col-sm-4 sm-margin-b-2">
+                            <div class="service" data-height="height">
+                                <div class="service-element">
+                                    <i class="service-icon icon-shield"></i>
+                                </div>
+                                <div class="service-info">
+                                    <h3>Safety tests</h3>
+                                    <p class="margin-b-5">We are not always aware how important it is to ensure the security of our websites. If you are concerned whether your website features the minimum safety measures or lack knowledge to determine that, I can assist you with verification.  </p>
+                                </div>
+                                <a href="#services" class="content-wrapper-link"></a>    
+                            </div>
+                        </div>
+                        <div class="col-sm-4 sm-margin-b-2">
+                            <div class="service" data-height="height">
+                                <div class="service-element">
+                                    <i class="service-icon icon-credit-card"></i>
+                                </div>
+                                <div class="service-info">
+                                    <h3>Pricing</h3>
+                                    <p class="margin-b-5">As all the services are customised, it is not possible to give a precise quote. If you would like to know more, please contact me. </p>
+                                </div>
+                                <a href="#contact" class="content-wrapper-link"></a>    
+                            </div>
+                        </div>
+                        <div class="col-sm-4">
+                            <div class="service" data-height="height">
+                                <div class="service-element">
+                                    <i class="service-icon icon-support"></i>
+                                </div>
+                                <div class="service-info">
+                                    <h3>Technical Support</h3>
+                                    <p class="margin-b-5">Support and service of new and pre-existing products. Help in emergency situations as well as prompt website operation solutions.</p>
+                                </div>
+                                <a href="#services" class="content-wrapper-link"></a>    
+                            </div>
+                        </div>
+                    </div>
+                    <!--// end row -->
+                </div>
+            </div>
+        </div>
+        <!-- End Service -->
+            
+        <!-- Contact -->
+        <div id="contact">
+            <!-- Contact List -->
+            <div class="section-seperator">
+                <div class="content-lg container">
+                    <div class="row">
+                        <!-- Contact List -->
+                        <div class="col-sm-4 sm-margin-b-50">
+                            <h3><a href="#">Contact</a> <span class="text-uppercase margin-l-20"></span></h3>
+                            <p></p>
+                            <ul class="list-unstyled contact-list">
+                                <li><i class="margin-r-10 color-base icon-call-out"></i> +48 605 165 821</li>
+                                <li><i class="margin-r-10 color-base icon-envelope"></i> boructomek@gmail.com</li>
+                                <a href="https://www.linkedin.com/in/tomasz-boruc-ba267a13a/"><li><img src="img\ln.png"></li></a>
+                            </ul>
+                        </div>
+                        <!-- End Contact List -->
+
+                       
+                    </div>
+                    <!--// end row -->
+                </div>
+            </div>
+            <!-- End Contact List -->
+            
+            <!-- Google Map -->
+<!--
+            <div class="map height-300">
+			<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1220.9508188482052!2d21.037262712151207!3d52.263331195225476!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x471ecc3d01072ab1%3A0xfde2909389584e7d!2sBr%C3%B3dnowska!5e0!3m2!1spl!2spl!4v1518260063956" width="100%" height="100%" frameborder="0" style="border:0" allowfullscreen></iframe>
+			</div>
+-->
+        </div>
+        <!-- End Contact -->
+        <!--========== END PAGE LAYOUT ==========-->
+
+        <!--========== FOOTER ==========-->
+        <footer class="footer">
+            <!-- Links -->
+            <div class="section-seperator footer_background">
+                <div class="content-md container">
+                    <div class="row">
+                        <div class="col-sm-2 sm-margin-b-30">
+                            <!-- List -->
+                            <ul class="list-unstyled footer-list">
+                                <li class="footer-list-item"><a href="#body">Home</a></li>
+                                <li class="footer-list-item"><a href="#about">About</a></li>
+                                <li class="footer-list-item"><a href="#services">Services</a></li>
+                                <li class="footer-list-item"><a href="#contact">Contact</a></li>
+                            </ul>
+                            <!-- End List -->
+                        </div>
+                        <div class="col-sm-2 sm-margin-b-30">
+                          
+                        </div>
+                        <div class="col-sm-3">
+                          
+                        </div>
+                    </div>
+                    <!--// end row -->
+                </div>
+            </div>
+            <!-- End Links -->
+
+            <!-- Copyright -->
+            <div class="content container">
+                <div class="row">
+                    <div class="col-xs-6">
+                       Copyright 2018 &copy <img class="footer-logo" src="img/logo-dark.png" alt="flameonepage Logo">
+                    </div>
+                    <div class="col-xs-6 text-right">
+                        Strona znajduję sie na <a href="https://hostinghouse.pl/klient/aff.php?aff=918">HostingHouse.pl</a>
+                    </div>
+                </div>
+                <!--// end row -->
+            </div>
+            <!-- End Copyright -->
+        </footer>
+        <!--========== END FOOTER ==========-->
+
+        <!-- Back To Top -->
+        <a href="javascript:void(0);" class="js-back-to-top back-to-top">Top</a>
+
+        <!-- JAVASCRIPTS(Load javascripts at bottom, this will reduce page load time) -->
+        <!-- CORE PLUGINS -->
+        <script src="vendor/jquery.min.js" type="text/javascript"></script>
+        <script src="vendor/jquery-migrate.min.js" type="text/javascript"></script>
+        <script src="vendor/bootstrap/js/bootstrap.min.js" type="text/javascript"></script>
+
+        <!-- PAGE LEVEL PLUGINS -->
+        <script src="vendor/jquery.easing.js" type="text/javascript"></script>
+        <script src="vendor/jquery.back-to-top.js" type="text/javascript"></script>
+        <script src="vendor/jquery.smooth-scroll.js" type="text/javascript"></script>
+        <script src="vendor/jquery.wow.min.js" type="text/javascript"></script>
+        <script src="vendor/swiper/js/swiper.jquery.min.js" type="text/javascript"></script>
+        <script src="vendor/masonry/jquery.masonry.pkgd.min.js" type="text/javascript"></script>
+        <script src="vendor/masonry/imagesloaded.pkgd.min.js" type="text/javascript"></script>
+
+        <!-- PAGE LEVEL SCRIPTS -->
+        <script src="js/layout.min.js" type="text/javascript"></script>
+        <script src="js/components/wow.min.js" type="text/javascript"></script>
+        <script src="js/components/swiper.min.js" type="text/javascript"></script>
+        <script src="js/components/masonry.min.js" type="text/javascript"></script>
+        <script type="text/javascript">
+            var img = document.getElementById('obrazek');
+            displayImage();
+            img.addEventListener("click", displayImage); 
+        </script>
+        
+        <script> 
+            $(function(){
+              $("#include").load("svg.html"); 
+            });
+        </script>
+
+    </body>
+    <!-- END BODY -->
+</html>
