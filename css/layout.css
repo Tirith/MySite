@@ -634,9 +634,9 @@ h4 {
 
 .header .logo-img-main {
   display: inline-block;
-  -webkit-transition-duration: 400ms;
-  -o-transition-duration: 400ms;
-  transition-duration: 400ms;
+  -webkit-transition-duration: 900ms;
+  -o-transition-duration: 900ms;
+  transition-duration: 900ms;
   -webkit-transition-property: all;
   -o-transition-property: all;
   transition-property: all;
@@ -646,9 +646,9 @@ h4 {
 
 .header .logo-img-active {
   display: none;
-  -webkit-transition-duration: 400ms;
-  -o-transition-duration: 400ms;
-  transition-duration: 400ms;
+  -webkit-transition-duration: 900ms;
+  -o-transition-duration: 900ms;
+  transition-duration: 900ms;
   -webkit-transition-property: all;
   -o-transition-property: all;
   transition-property: all;

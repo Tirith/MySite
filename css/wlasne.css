@@ -18,6 +18,37 @@
      animation: swing 1s;
 }
 
+.logo {
+     display: flex;
+     padding-top: 15px;
+   }
+
+.logo_part {
+     font-family: 'Jura', sans-serif;
+     color: #b7530c;
+     font-size: 50px;
+     text-align: center;
+   }
+
+   .logo_part_orange {
+     font-family: 'Jura', sans-serif;
+     color:rgb(255, 255, 255);
+     font-size: 50px;
+     text-align: center;
+     opacity: 0;
+     transform: scale(0);
+     width: 0;
+   }
+
+   
+   
+   .unhidden {
+     transform: scale(1);
+     opacity: 1;
+     width: 100%;
+     transition: all 3s ease-in-out;
+   }
+
 
 /*------------------------------------------------------------------
     [Top margin]

@@ -14,6 +14,7 @@
         <link rel="icon" type="image/png" href="icon/favicon-16x16.png" sizes="16x16">
         <link href="https://fonts.googleapis.com/css?family=Hind:300,400,500,600,700" rel="stylesheet" type="text/css">
         <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Jura:wght@300&family=Quantico&display=swap" rel="stylesheet">
 		<link href="//netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css" rel="stylesheet">
         <link href="vendor/simple-line-icons/simple-line-icons.min.css" rel="stylesheet" type="text/css"/>
         <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet" type="text/css"/>
@@ -56,15 +57,14 @@
                             <span class="toggle-icon"></span>
                         </button>
 
-                          <div class="logo">
-                            <a class="logo-wrap" href="#body">
-                                <img class="logo-img logo-img-main" src="img/logo.png" alt="Tomasz Boruc logo"> 
-                                <img class="logo-img logo-img-active" src="img/logo-dark.png" alt="Tomasz Boruc logo">
-                            </a>
-
+                          <div class="logo" id="logo">
+                                <div class="logo_part">B</div>
+                                <div class="logo_part_orange logo-img-main" id="eyond">eyond&nbsp;  </div>
+                                <div class="logo_part">IT</div>
                         </div>
                         
                     </div>
+                
 
                     <div  class="collapse navbar-collapse nav-collapse">
 					
@@ -387,6 +387,14 @@
               $("#include").load("svg.html"); 
             });
         </script> 
+
+        <script>
+            const expandable = document.getElementById('logo');
+            const eyond = document.getElementById('eyond');
+            expandable.addEventListener('mouseover', () => {
+            eyond.classList.add('unhidden');
+            });
+        </script>
     </body>
     <!-- END BODY -->
     
