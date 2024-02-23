@@ -19,11 +19,11 @@ https://templatemo.com/tm-567-nomad-force
   --title-color:                  #565758;
   --p-color:                      #717275;
 
-  --body-font-family:           'Noto Sans JP', sans-serif;
+  --body-font-family:           'Montserrat', sans-serif;
 
   --h1-font-size:               72px;
   --h2-font-size:               42px;
-  --h3-font-size:               36px;
+  --h3-font-size:               25px;
   --h4-font-size:               32px;
   --h5-font-size:               24px;
   --h6-font-size:               22px;
@@ -34,7 +34,7 @@ https://templatemo.com/tm-567-nomad-force
   --font-weight-light:          300;
   --font-weight-normal:         400;
   --font-weight-bold:           700;
-  --font-weight-black:          900;
+  
 }
 
 body,
@@ -376,6 +376,11 @@ strong {
   transform: translate(-50%, -50%);
   width: 85%;
   text-align: center;
+  font-family: "Montserrat", sans-serif;
+ 
+  font-weight: 200;
+  font-style: normal;
+ 
 }
 
 /*---------------------------------------
@@ -723,5 +728,9 @@ strong {
 
 .orange{
   color: #ca4c03;
+}
+
+.white{
+  color: #b1a6a6;
 }
 
